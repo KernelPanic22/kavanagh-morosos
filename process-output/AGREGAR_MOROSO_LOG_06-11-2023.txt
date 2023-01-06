@@ -1,0 +1,14 @@
+
+ viernes 01/06/2023 17:11:==========Comienza proceso agregado de morosos.==========
+
+ viernes 01/06/2023 17:11: Cliente 1 agregado como moroso.
+
+ viernes 01/06/2023 17:11: Cliente 2 agregado como moroso.
+
+ viernes 01/06/2023 17:11: Cliente 3 agregado como moroso.
+
+ viernes 01/06/2023 17:11: Cliente 4 agregado como moroso.
+
+ viernes 01/06/2023 17:11: Cliente 5 agregado como moroso.
+
+ viernes 01/06/2023 17:11:==========Termina proceso agregado de morosos.==========

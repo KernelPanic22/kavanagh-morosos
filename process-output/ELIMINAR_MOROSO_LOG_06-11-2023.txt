@@ -1,0 +1,8 @@
+
+ viernes 01/06/2023 17:11:==========Comienza proceso eliminar morosos.==========
+
+ 2023-01-06: Cliente 6 eliminado como moroso.
+
+ 2023-01-06: Cliente 7 eliminado como moroso.
+
+ viernes 01/06/2023 17:11:==========Termina proceso eliminar morosos.==========
