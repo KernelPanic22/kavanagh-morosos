@@ -31,9 +31,13 @@ if(Test-Path -Path $pathRemoveDebtTxt){
     
     ForEach ($line in $fileRemoveDebt){
     if(![string]::IsNullOrEmpty($line)){
+       if((Test-Path -Path "$pathMorosoTxt\$line\moroso.txt")){
         Remove-Item -Path "$pathMorosoTxt\$line\moroso.txt" -Recurse
         Add-Content "$PSScriptRoot\process-output\ELIMINAR_MOROSO_LOG_$(get-date -f dd-mm-yyyy).txt" "`n $(get-date -f yyyy-MM-dd): Cliente $line eliminado como moroso."
-        }
+            }else{
+                Add-Content "$PSScriptRoot\process-output\ELIMINAR_MOROSO_LOG_$(get-date -f dd-mm-yyyy).txt" "`n $(get-date -f yyyy-MM-dd): Cliente $line no contiene un archivo de moroso en su carpeta."
+            }
+         }
        }
     Add-Content "$PSScriptRoot\process-output\ELIMINAR_MOROSO_LOG_$(get-date -f dd-mm-yyyy).txt" "`n $(Get-Date -Format "dddd MM/dd/yyyy HH:mm"):==========Termina proceso eliminar morosos.=========="
     Copy-Item -Path $pathRemoveDebtTxt -Recurse -Destination "$PSScriptRoot\output-sacar-moroso\ProcessedFile on $(get-date -f yyyy-MM-dd).txt"
