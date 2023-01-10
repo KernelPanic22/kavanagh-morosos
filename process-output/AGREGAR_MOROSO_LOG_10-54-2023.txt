@@ -1,0 +1,14 @@
+
+ martes 01/10/2023 12:54:==========Comienza proceso agregado de morosos.==========
+
+ martes 01/10/2023 12:54: Cliente 1 agregado como moroso.
+
+ martes 01/10/2023 12:54: Cliente 2 agregado como moroso.
+
+ martes 01/10/2023 12:54: Cliente 3 agregado como moroso.
+
+ martes 01/10/2023 12:54: Cliente 4 agregado como moroso.
+
+ martes 01/10/2023 12:54: Cliente 5 agregado como moroso.
+
+ martes 01/10/2023 12:54:==========Termina proceso agregado de morosos.==========

@@ -1,0 +1,8 @@
+
+ martes 01/10/2023 12:54:==========Comienza proceso eliminar morosos.==========
+
+ 2023-01-10: Cliente 6 eliminado como moroso.
+
+ 2023-01-10: Cliente 7 eliminado como moroso.
+
+ martes 01/10/2023 12:54:==========Termina proceso eliminar morosos.==========
